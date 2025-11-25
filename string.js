@@ -27,4 +27,56 @@ console.log(myStr.trimEnd(), myStr.trimEnd().length )
 
 console.log(myStr.trim(), myStr.trim().length) */
 
+let myName = "shyam"
+
+/* let newName = myName.repeat(500)
+console.log(newName)
+ */
+/* console.log(myName.repeat(500))
+
+let str = "i love js. js is powerfull. js is awesome"
+console.log(str.replace("js", "javascript"))
+
+console.log(str.replaceAll("js", "javascript"))
+
+
+let array = str.split(" ")
+console.log(array)
+
+let email = "user123@gmail.com"
+console.log(email.split("@")[0])
+
+let mystr = "javascript"
+console.log(mystr.split("")) */
+
+/* 
+let myStr = "javascript is awesome"
+
+let newStr = myStr.slice(0, 10)
+console.log(newStr)
+
+let subject = "PYTHON"
+
+console.log(subject.slice(-3, -1))
+
+console.log(subject.substring(0,2)) */
+
+let str = "js is awesome"
+
+/* console.log(str.includes("z"))
+
+console.log(str.startsWith("jsx"))
+
+console.log(str.endsWith("mey")) */
+
+let str1 = "python"
+let str2 = "java"
+
+console.log(str.concat(" ", str1," ", str2))
+
+let subject = "jAvascripta"
+
+console.log(subject.indexOf("a", 4))
+
+console.log(subject.lastIndexOf("a", 9))
 
