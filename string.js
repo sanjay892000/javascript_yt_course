@@ -80,3 +80,16 @@ console.log(subject.indexOf("a", 4))
 
 console.log(subject.lastIndexOf("a", 9))
 
+
+//  template literals
+
+let a = 100;
+let b = 23;
+
+let ans = `sum of ${a} & ${b} is ${a+b}`
+
+console.log(ans)
+
+let balance = 1000;
+
+console.log(`my balance is ${balance}`)
